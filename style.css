@@ -1,0 +1,78 @@
+body{
+    background-color:rgb(54, 34, 44);
+    background-repeat: none;
+  
+background-size: 100%;
+}
+
+.nav a{
+    text-decoration: none;
+    color:azure;
+    font-size: 1em;
+    justify-content:right;
+    margin: 10px;
+    border: 1px ;
+}
+.nav a:hover{
+    color:fuchsia;
+}
+.nav{
+    display: inline-block;
+    position: absolute;
+    right:30px;
+    top: 10;
+    border:1px ;
+    padding: 10px;
+   
+}
+.maincore{
+    color:rgb(188, 195, 207);
+    text-align: center;
+    border: 1px;
+    width: 50%;
+    position: absolute;
+    bottom:250px;
+    left:400px;
+}
+.word h2{
+    font-size: 3em;
+    color:chartreuse;
+    font-weight: 800;
+}
+.image img{
+position: absolute;
+left:-380px;
+border: 1px solid red;
+width: 400px;
+border-radius: 25px;
+bottom:-50px;
+}
+.image img:hover{
+   transition: 1s;
+   transform: scale(1.1);
+}
+.s{
+    color:darkorange;
+}
+.w{
+    font-size: 2.2em;
+}
+.icone {
+    font-size: 1.5em;
+    margin-left: 10px;
+    letter-spacing: 10px;
+}
+.card-con img{
+    width: 200px;
+    height: 200px;
+}
+.mobile{
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom:-300px;
+    border: 1px solid red;
+
+}
+
+
